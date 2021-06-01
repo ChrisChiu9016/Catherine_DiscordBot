@@ -4,7 +4,6 @@ from discord.utils import get
 from core.classes import Cog_Extension
 import urllib.request as req
 import bs4
-from goto import with_goto
 
 url = "https://store.steampowered.com/feeds/newshub/app/1377580/?cc=TW&l=tchinese&snr=1_2108_9__1601"
 
