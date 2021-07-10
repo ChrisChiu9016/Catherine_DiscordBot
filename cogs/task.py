@@ -82,23 +82,7 @@ class task(Cog_Extension):
                     description = root.channel.item.find("description")
                     time = root.channel.item.find("pubdate")
                     author = root.channel.item.find("author")
-                    """
-                    # embed
-                    embed = discord.Embed(
-                        title=title.string,
-                        description=f'{time.string[:-6]}UTC+0 By {author.string}',
-                        colour=0xFF2D00
-                    )
-                    embed.add_field(
-                        name=guid.string,
-                        value=description.string.split(
-                            '" />')[1].replace('<br>', '\n').replace('<img src="', '').replace('" />', ''),
-                        inline=True
-                    )
-                    enclosure = description.string.split(
-                        '" />')[0].replace('<img src="', '')
-                    embed.set_thumbnail(url=enclosure)
-                    """
+                    
                     print(f'{datetime.datetime.now()} 發現新公告:{title.string}')
 
                     if(len(description.string) >= 2000):
@@ -110,9 +94,8 @@ class task(Cog_Extension):
                     # await news_channel.send(embed=embed)
                     await asyncio.sleep(60)
 
-        task_raid = self.bot.loop.create_task(raid())
-        task_news = self.bot.loop.create_task(news())
-        #task_test = self.bot.loop.create_task(test())
+        #task_raid = self.bot.loop.create_task(raid())
+        #task_news = self.bot.loop.create_task(news())
 
 
 def setup(bot):
