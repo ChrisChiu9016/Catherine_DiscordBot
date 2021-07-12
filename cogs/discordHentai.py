@@ -13,7 +13,7 @@ class discordHentai(Cog_Extension):
     
     embed=discord.Embed(title=doujin.title, description=r_id, url=doujin.url)
     embed.set_thumbnail(url=doujin.thumbnail)
-    embed.add_field(name="Tags", value=[tag.name for tag in doujin.tag], inline=False)
+    embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
     embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
     await ctx.send(embed=embed)
 
