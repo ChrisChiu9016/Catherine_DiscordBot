@@ -18,7 +18,7 @@ class discordHentai(Cog_Extension):
 		embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 		await ctx.send(embed=embed)
 
-		if(cmd == ''):
+		if(cmd == 'show'):
 			await ctx.send(doujin.image_urls)
 	#指定本子
 	@commands.command(aliases=[])
