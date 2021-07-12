@@ -7,8 +7,7 @@ import hentai
 
 class discordHentai(Cog_Extension):
   @commands.command(aliases=['rh'])
-  async def randomHentai(self, ctx, msg):
-    if(msg==''):
+  async def randomHentai(self, ctx):
         r_id = hentai.Utils.get_random_id()
         doujin = hentai.Hentai(r_id)
         
@@ -17,16 +16,21 @@ class discordHentai(Cog_Extension):
         embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
         embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
         await ctx.send(embed=embed)
+
+    
         
-    elif(isinstance(msg, int) and hentai.Hentai.exists(msg)):
-        doujin = hentai.Hentai(msg)
+  @commands.command(aliases=[])
+  async def id(self, ctx, *, id):
+    if(hentai.Hentai.exists(id)):
+        doujin = hentai.Hentai(id)
         
-        embed=discord.Embed(title=str(doujin.title()), description=msg, url=doujin.url)
+        embed=discord.Embed(title=str(doujin.title()), description=id, url=doujin.url)
         embed.set_thumbnail(url=doujin.thumbnail)
         embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
         embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
         await ctx.send(embed=embed)
-#   @commands.command(aliases=[])
+    else:
+        ctx.send(f'此ID不存在，請重試。')
 
 def setup(bot):
     bot.add_cog(discordHentai(bot))
