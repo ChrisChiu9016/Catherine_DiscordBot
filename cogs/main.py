@@ -30,7 +30,10 @@ class main(Cog_Extension):
     async def test0(self, ctx):
         emoji = discord.utils.get(self.bot.emojis, name='LAFA')
         await ctx.send(f'{emoji}')
-
+    @commands.command()
+    async def clear(self, ctx):
+        time = datetime.datetime.now() + datetime.timedelta(days=-1)
+        await ctx.channel.purge(after=time)
 
 def setup(bot):
     bot.add_cog(main(bot))
