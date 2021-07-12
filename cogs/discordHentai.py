@@ -8,7 +8,7 @@ import hentai
 class discordHentai(Cog_Extension):
 	#隨機本子		
 	@commands.group(aliases=['rh'])
-	async def randomHentai(self, ctx, *, argument: str):
+	async def randomHentai(self, ctx):
 		r_id = hentai.Utils.get_random_id()
 		doujin = hentai.Hentai(r_id)
 
@@ -28,11 +28,11 @@ class discordHentai(Cog_Extension):
 		embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 
 		await ctx.send(embed=embed)
-		await ctx.send(doujin.image_urls.replace('\'','').replace('[','').replace(']',''))
+		await ctx.send(str(doujin.image_urls).replace('\'','').replace('[','').replace(']',''))
 
 	#指定本子
-	@commands.group(aliases=['hid'])
-	async def getHentai(self, ctx, *, id):
+	@commands.gr(aliases=['hid'])
+	async def getHentai(self, ctx):
 		if(hentai.Hentai.exists(id)):
 			doujin = hentai.Hentai(id)
             
