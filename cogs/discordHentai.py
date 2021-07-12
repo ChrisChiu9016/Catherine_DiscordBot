@@ -31,7 +31,7 @@ class discordHentai(Cog_Extension):
 		await ctx.send(doujin.image_urls.replace('\'','').replace('[','').replace(']',''))
 
 	#指定本子
-	@commands.command(aliases=['hid'])
+	@commands.group(aliases=['hid'])
 	async def getHentai(self, ctx, *, id):
 		if(hentai.Hentai.exists(id)):
 			doujin = hentai.Hentai(id)
