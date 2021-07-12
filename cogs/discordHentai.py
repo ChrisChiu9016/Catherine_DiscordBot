@@ -10,8 +10,9 @@ class discordHentai(Cog_Extension):
   async def randomHentai(self, ctx):
     r_id = hentai.Utils.get_random_id()
     doujin = hentai.Hentai(r_id)
-
+    
     embed=discord.Embed(title=doujin.title, description=r_id, url=doujin.url)
+    embed.set_thumbnail(url=doujin.thumbnail)
     embed.add_field(name="Tags", value=[tag.name for tag in doujin.tag], inline=False)
     embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
     await ctx.send(embed=embed)
