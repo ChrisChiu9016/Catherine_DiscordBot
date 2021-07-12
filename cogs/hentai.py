@@ -8,3 +8,6 @@ class hentai(Cog_Extension):
   @commands.command(aliases=['隨機本本','rH'])
   async def randomHentai(self, ctx):
     await ctx.send(hentai.Utils.get_random_hentai())
+
+def setup(bot):
+    bot.add_cog(hentai(bot))
