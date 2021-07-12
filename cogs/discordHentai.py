@@ -17,6 +17,7 @@ class discordHentai(Cog_Extension):
         embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
         embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
         await ctx.send(embed=embed)
+        
     elif(isinstance(msg, int) and hentai.Hentai.exists(msg)):
         doujin = hentai.Hentai(msg)
         
