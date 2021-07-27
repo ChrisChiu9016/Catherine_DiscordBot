@@ -150,6 +150,10 @@ class picture(Cog_Extension):
     async def 台女(self, ctx):
         await ctx.send('https://cdn.discordapp.com/attachments/786026725968314392/801032924467822622/776237272017928202.png')
 
+    @commands.command()
+    async def 交給我(self, ctx):
+        await ctx.send('https://cdn.discordapp.com/attachments/786026725968314392/864528792928387123/unknown.png')
+
 
 def setup(bot):
     bot.add_cog(picture(bot))
