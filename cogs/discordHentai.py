@@ -33,12 +33,12 @@ class discordHentai(Cog_Extension):
 		if(hentai.Hentai.exists(id)):
 			doujin = hentai.Hentai(id)
 					
-			embed=discord.Embed(title=str(doujin.title()), description=f'#{r_id}', url=doujin.url)
+			embed=discord.Embed(title=str(doujin.title()), description=f'#{id}', url=doujin.url)
 			embed.set_thumbnail(url=doujin.thumbnail)
 			embed.add_field(name="Artist", value=doujin.artist)
 			embed.add_field(name="Parody", value=doujin.parody)
 			embed.add_field(name="Character", value=str([name for i, name in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
-			embed.add_field(name="Tags", value=str([tag for i, tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
+			embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
 			embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 			await ctx.send(embed=embed)
 
