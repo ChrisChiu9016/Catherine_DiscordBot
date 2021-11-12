@@ -9,62 +9,70 @@ import hentai
 class discordHentai(Cog_Extension):
 	#隨機本子		
 	#if ctx.invoked_subcommand is None: 檢查是否有參數
-	@commands.group(aliases=['h'])
+	@commands.group()
 	async def hentai(self, ctx):
 		if ctx.invoked_subcommand is None:
 			await ctx.send("請配合參數使用。")
 
-	@hentai.group(aliases=['r'])
-	async def random(self, ctx):
+	@hentai.group()
+	async def random(self, ctx, show=""):
 		r_id = hentai.Utils.get_random_id()
 		doujin = hentai.Hentai(r_id)
+		language = str([language.name for language in doujin.language]).replace('\'','').replace('[','').replace(']','').upper()
 
-		embed=discord.Embed(title=str(doujin.title()), description=f'#{id}', url=doujin.url)
+		embed=discord.Embed(title=str(doujin.title()), description=f'#{r_id} {language}', url=doujin.url, color=0xFF6600)
 		embed.set_thumbnail(url=doujin.thumbnail)
-		embed.add_field(name="Artist", value=doujin.artist)
-		embed.add_field(name="Parody", value=doujin.parody)
-		embed.add_field(name="Character", value=str([character.name for character in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
-		embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
+		if len(doujin.artist): embed.add_field(name="Artist", value=str([artist.name for artist in doujin.artist]).replace('\'','').replace('[','').replace(']',''), inline=False)
+		if len(doujin.parody): embed.add_field(name="Parody", value=str([parody.name for parody in doujin.parody]).replace('\'','').replace('[','').replace(']',''), inline=False)
+		if len(doujin.character): embed.add_field(name="Character", value=str([character.name for character in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
+		if len(doujin.tag): embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
 		embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 		await ctx.send(embed=embed)
 
-	@hentai.group(aliases=['i'])
-	async def id(self, ctx, id:str):
+		if show == "show":
+				for url in doujin.image_urls:
+					await ctx.send(url.replace('\'',''))
+
+	@hentai.group()
+	async def id(self, ctx, id:str, show=""):
 		if(hentai.Hentai.exists(id)):
 			doujin = hentai.Hentai(id)
-					
-			embed=discord.Embed(title=str(doujin.title()), description=f'#{id}', url=doujin.url)
+			language = str([language.name for language in doujin.language]).replace('\'','').replace('[','').replace(']','').upper()
+
+			embed=discord.Embed(title=str(doujin.title()), description=f'#{id} {language}', url=doujin.url, color=0xFF6600)
 			embed.set_thumbnail(url=doujin.thumbnail)
-			embed.add_field(name="Artist", value=doujin.artist)
-			embed.add_field(name="Parody", value=doujin.parody)
-			embed.add_field(name="Character", value=str([character.name for character in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
-			embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
+			if len(doujin.artist): embed.add_field(name="Artist", value=str([artist.name for artist in doujin.artist]).replace('\'','').replace('[','').replace(']',''), inline=False)
+			if len(doujin.parody): embed.add_field(name="Parody", value=str([parody.name for parody in doujin.parody]).replace('\'','').replace('[','').replace(']',''), inline=False)
+			if len(doujin.character): embed.add_field(name="Character", value=str([character.name for character in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
+			if len(doujin.tag): embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
 			embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 			await ctx.send(embed=embed)
 
-	# @id.command()
-	# @random.command()
-	# async def show(self, ctx):
-	# 	doujin = hentai.Hentai(id)
-	# 	print([url for i, url in doujin.image_urls].split("'"))
+			if show == "show":
+				for url in doujin.image_urls:
+					await ctx.send(url.replace('\'',''))
+					   
 
 	@hentai.command()
 	async def search(self, ctx, *, params:str):
 		count=0
 		for doujin in hentai.Utils.search_by_query(params, sort=hentai.Sort.PopularWeek):
 			if count < 5:
-				embed=discord.Embed(title=str(doujin.title()), description=f'#{id}', url=doujin.url)
+				language = str([language.name for language in doujin.language]).replace('\'','').replace('[','').replace(']','').upper()
+
+				embed=discord.Embed(title=str(doujin.title()), description=f'#{doujin.id} {language}', url=doujin.url, color=0xFF6600)
 				embed.set_thumbnail(url=doujin.thumbnail)
-				embed.add_field(name="Artist", value=doujin.artist)
-				embed.add_field(name="Parody", value=doujin.parody)
-				embed.add_field(name="Character", value=str([character.name for character in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
-				embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
+				if len(doujin.artist): embed.add_field(name="Artist", value=str([artist.name for artist in doujin.artist]).replace('\'','').replace('[','').replace(']',''), inline=False)
+				if len(doujin.parody): embed.add_field(name="Parody", value=str([parody.name for parody in doujin.parody]).replace('\'','').replace('[','').replace(']',''), inline=False)
+				if len(doujin.character): embed.add_field(name="Character", value=str([character.name for character in doujin.character]).replace('\'','').replace('[','').replace(']',''), inline=False)
+				if len(doujin.tag): embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
 				embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
+				await ctx.send(embed=embed)
 
 				count = count + 1
-
+	
 			else: break
-			
+			 
 	@hentai.command()
 	async def help(self, ctx):
 		await ctx.send("參數一覽:\n    random : 隨機挑選一個本本\n    id : 指定神的語言搜尋\n    search : 根據指定內容搜尋")
