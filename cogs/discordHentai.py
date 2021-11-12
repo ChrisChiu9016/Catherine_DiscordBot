@@ -14,7 +14,7 @@ class discordHentai(Cog_Extension):
 		if ctx.invoked_subcommand is None:
 			await ctx.send("請配合參數使用。")
 
-	@hentai.command()
+	@hentai.group(aliases=['r'])
 	async def random(self, ctx):
 		r_id = hentai.Utils.get_random_id()
 		doujin = hentai.Hentai(r_id)
@@ -25,7 +25,7 @@ class discordHentai(Cog_Extension):
 		embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 		await ctx.send(embed=embed)
 
-	@hentai.command()
+	@hentai.group(aliases=['i'])
 	async def id(self, ctx, id:str):
 		if(hentai.Hentai.exists(id)):
 			doujin = hentai.Hentai(id)
@@ -35,6 +35,12 @@ class discordHentai(Cog_Extension):
 			embed.add_field(name="Tags", value=str([tag.name for tag in doujin.tag]).replace('\'','').replace('[','').replace(']',''), inline=False)
 			embed.add_field(name="Pages", value=doujin.num_pages, inline=False)
 			await ctx.send(embed=embed)
+
+	# @id.command()
+	# @random.command()
+	# async def show(self, ctx):
+	# 	doujin = hentai.Hentai(id)
+	# 	print([url for i, url in doujin.image_urls].split("'"))
 
 	@hentai.command()
 	async def search(self, ctx, *, params:str):
