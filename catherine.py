@@ -7,10 +7,11 @@ import json
 import asyncio
 import datetime
 from dotenv import load_dotenv
+import wavelink
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='!', case_intensitive=True)
 
 
 # Setting `Playing ` status
@@ -93,4 +94,4 @@ async def on_message(msg):
 
     await bot.process_commands(msg)
 
-bot.run(TOKEN)
+bot.run(TOKEN, reconnect=True)

@@ -1,0 +1,529 @@
+2021-11-22 18:58:43.253  INFO 12968 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 18:58:43.329  INFO 12968 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 12968 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 18:58:43.330  INFO 12968 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 18:58:43.410  WARN 12968 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 18:58:44.292  WARN 12968 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 18:58:44.326  INFO 12968 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 18:58:44.327  INFO 12968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 954 ms
+2021-11-22 18:58:44.612  WARN 12968 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 18:58:44.818  INFO 12968 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 18:58:44.987  INFO 12968 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 18:58:44.988  WARN 12968 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 18:58:45.164  INFO 12968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 18:58:45.408  INFO 12968 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 18:58:45.417  INFO 12968 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 18:58:45.483  INFO 12968 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 18:58:45.487  INFO 12968 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.594 seconds (JVM running for 2.942)
+2021-11-22 18:58:45.488  INFO 12968 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 18:58:56.078  INFO 2428 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 18:58:56.152  INFO 2428 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 2428 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 18:58:56.153  INFO 2428 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 18:58:56.227  WARN 2428 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 18:58:57.048  WARN 2428 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 18:58:57.074  INFO 2428 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 18:58:57.074  INFO 2428 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 879 ms
+2021-11-22 18:58:57.338  WARN 2428 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 18:58:57.544  INFO 2428 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 18:58:57.723  INFO 2428 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 18:58:57.723  WARN 2428 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 18:58:57.906  INFO 2428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 18:58:58.146  INFO 2428 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 18:58:58.155  INFO 2428 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 18:58:58.227  INFO 2428 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-22 18:58:58.229 ERROR 2428 --- [main] lavalink.server.Launcher                 : Application failed
+
+org.springframework.boot.web.server.PortInUseException: Port 2333 is already in use
+	at org.springframework.boot.web.embedded.undertow.UndertowServletWebServer.start(UndertowServletWebServer.java:154) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at lavalink.server.Launcher.main(Launcher.kt:127) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[Lavalink.jar:na]
+
+2021-11-22 18:58:58.231 ERROR 2428 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2333 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2333 or configure this application to listen on another port.
+
+2021-11-22 18:58:58.234  INFO 2428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-22 18:58:58.235  INFO 2428 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2021-11-22 18:59:10.268  INFO 16640 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 18:59:10.343  INFO 16640 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 16640 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 18:59:10.344  INFO 16640 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 18:59:10.429  WARN 16640 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 18:59:11.234  WARN 16640 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 18:59:11.255  INFO 16640 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 18:59:11.256  INFO 16640 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 869 ms
+2021-11-22 18:59:11.522  WARN 16640 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 18:59:11.731  INFO 16640 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 18:59:11.912  INFO 16640 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 18:59:11.912  WARN 16640 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 18:59:12.092  INFO 16640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 18:59:12.335  INFO 16640 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 18:59:12.344  INFO 16640 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 18:59:12.405  INFO 16640 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-22 18:59:12.407 ERROR 16640 --- [main] lavalink.server.Launcher                 : Application failed
+
+org.springframework.boot.web.server.PortInUseException: Port 2333 is already in use
+	at org.springframework.boot.web.embedded.undertow.UndertowServletWebServer.start(UndertowServletWebServer.java:154) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.8.RELEASE.jar!/:2.1.8.RELEASE]
+	at lavalink.server.Launcher.main(Launcher.kt:127) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[Lavalink.jar:na]
+
+2021-11-22 18:59:12.410 ERROR 16640 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2333 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2333 or configure this application to listen on another port.
+
+2021-11-22 18:59:12.412  INFO 16640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-22 18:59:12.413  INFO 16640 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2021-11-22 19:00:01.791  INFO 13488 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 19:00:01.873  INFO 13488 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 13488 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 19:00:01.874  INFO 13488 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 19:00:01.973  WARN 13488 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 19:00:02.835  WARN 13488 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 19:00:02.852  INFO 13488 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 19:00:02.852  INFO 13488 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 915 ms
+2021-11-22 19:00:03.121  WARN 13488 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 19:00:03.345  INFO 13488 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 19:00:03.515  INFO 13488 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 19:00:03.515  WARN 13488 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 19:00:03.689  INFO 13488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 19:00:03.928  INFO 13488 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 19:00:03.937  INFO 13488 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 19:00:04.003  INFO 13488 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 19:00:04.006  INFO 13488 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.606 seconds (JVM running for 2.963)
+2021-11-22 19:00:04.008  INFO 13488 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 19:00:25.420  INFO 13488 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 19:00:25.420  INFO 13488 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-22 19:00:25.425  INFO 13488 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-11-22 19:00:25.440  INFO 13488 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62301
+2021-11-22 19:00:25.490  INFO 13488 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:00:25.491  WARN 13488 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:14:22.613  INFO 13488 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62301 -- CloseStatus[code=1006, reason=]
+2021-11-22 19:14:22.614  INFO 13488 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-11-22 19:16:07.051  INFO 13488 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54062
+2021-11-22 19:16:07.054  INFO 13488 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:16:07.054  WARN 13488 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:19:37.764  INFO 13488 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54062 -- CloseStatus[code=1006, reason=]
+2021-11-22 19:19:37.764  INFO 13488 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-11-22 19:19:42.820  INFO 13488 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50718
+2021-11-22 19:19:42.822  INFO 13488 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:19:42.823  WARN 13488 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:23:23.838  INFO 13488 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50718 -- CloseStatus[code=1006, reason=]
+2021-11-22 19:23:23.838  INFO 13488 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-11-22 19:28:08.963  INFO 13488 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50780
+2021-11-22 19:28:08.966  INFO 13488 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:28:08.967  WARN 13488 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:28:16.676  INFO 13488 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "786026725968314389", "sessionId": "a3d176102ac6862958b123db2c59dd42", "event": {"token": "8784b8cf04ac48c3", "guild_id": "786026725968314389", "endpoint": "hongkong2050.discord.media:443"}}
+2021-11-22 19:31:10.457  INFO 13488 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:STAY"
+2021-11-22 19:31:11.416  INFO 13488 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: STAY
+2021-11-22 19:31:21.694  INFO 13488 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAnAIANFRoZSBLaWQgTEFST0ksIEp1c3RpbiBCaWViZXIgLSBTVEFZIChPZmZpY2lhbCBWaWRlbykADlRoZSBLaWQgTEFST0kuAAAAAAACaTAAC2tUSmN6VW9jMjZVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a1RKY3pVb2MyNlUAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:34:20.013  INFO 13488 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/playlist?list=PLSE90cnmm065pmAscF7FSptpdGnBGDuXT"
+2021-11-22 19:34:20.435  INFO 13488 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist ¤û¹G¥S§Ì
+2021-11-22 19:34:20.450  INFO 13488 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAvgIAV+OAkO+8k+aciOOBruODqeOCpOOCquODs+OAkU9yaW9uLUFjb3VzdGljIEFycmFuZ2Ut44CU5q2M44Gj44Gm44G/44Gf44CV44CQTWFyaWXimIZGROOAkQAN55yf55KDTWFyaWVGRAAAAAAABGjoAAtrblVNYWcwSXUwZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWtuVU1hZzBJdTBnAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:37:46.551  INFO 13488 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50780 -- CloseStatus[code=1006, reason=]
+2021-11-22 19:37:46.552  INFO 13488 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-11-22 19:37:58.030  INFO 13488 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59727
+2021-11-22 19:37:58.033  INFO 13488 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:37:58.033  WARN 13488 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:43:20.638  INFO 10804 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 19:43:20.709  INFO 10804 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 10804 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 19:43:20.710  INFO 10804 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 19:43:20.783  WARN 10804 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 19:43:21.570  WARN 10804 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 19:43:21.596  INFO 10804 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 19:43:21.597  INFO 10804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 846 ms
+2021-11-22 19:43:21.860  WARN 10804 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 19:43:22.054  INFO 10804 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 19:43:22.248  INFO 10804 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 19:43:22.248  WARN 10804 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 19:43:22.428  INFO 10804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 19:43:22.654  INFO 10804 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 19:43:22.663  INFO 10804 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 19:43:22.725  INFO 10804 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 19:43:22.728  INFO 10804 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.442 seconds (JVM running for 2.787)
+2021-11-22 19:43:22.730  INFO 10804 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 19:44:16.467  INFO 5960 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 19:44:16.540  INFO 5960 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 5960 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 19:44:16.541  INFO 5960 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 19:44:16.615  WARN 5960 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 19:44:17.426  WARN 5960 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 19:44:17.443  INFO 5960 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 19:44:17.444  INFO 5960 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 862 ms
+2021-11-22 19:44:17.707  WARN 5960 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 19:44:17.926  INFO 5960 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 19:44:18.125  INFO 5960 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 19:44:18.125  WARN 5960 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 19:44:18.300  INFO 5960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 19:44:18.530  INFO 5960 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 19:44:18.539  INFO 5960 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 19:44:18.606  INFO 5960 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 19:44:18.611  INFO 5960 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.506 seconds (JVM running for 2.876)
+2021-11-22 19:44:18.612  INFO 5960 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 19:44:19.106  INFO 5960 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 19:44:19.107  INFO 5960 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-22 19:44:19.111  INFO 5960 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-11-22 19:44:19.128  INFO 5960 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58821
+2021-11-22 19:44:19.178  INFO 5960 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:44:19.178  WARN 5960 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:45:31.699  INFO 19756 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 19:45:31.772  INFO 19756 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 19756 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 19:45:31.772  INFO 19756 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 19:45:31.856  WARN 19756 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 19:45:32.654  WARN 19756 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 19:45:32.679  INFO 19756 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 19:45:32.679  INFO 19756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 873 ms
+2021-11-22 19:45:32.949  WARN 19756 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 19:45:33.158  INFO 19756 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 19:45:33.334  INFO 19756 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 19:45:33.335  WARN 19756 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 19:45:33.536  INFO 19756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 19:45:33.781  INFO 19756 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 19:45:33.790  INFO 19756 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 19:45:33.855  INFO 19756 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 19:45:33.858  INFO 19756 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.506 seconds (JVM running for 2.855)
+2021-11-22 19:45:33.860  INFO 19756 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 19:45:38.556  INFO 19756 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 19:45:38.557  INFO 19756 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-22 19:45:38.562  INFO 19756 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-11-22 19:45:38.578  INFO 19756 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51395
+2021-11-22 19:45:38.626  INFO 19756 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:45:38.626  WARN 19756 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:47:27.365  INFO 16972 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 19:47:27.438  INFO 16972 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 16972 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 19:47:27.439  INFO 16972 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 19:47:27.521  WARN 16972 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 19:47:28.301  WARN 16972 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 19:47:28.320  INFO 16972 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 19:47:28.320  INFO 16972 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 838 ms
+2021-11-22 19:47:28.583  WARN 16972 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 19:47:28.785  INFO 16972 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 19:47:28.960  INFO 16972 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 19:47:28.961  WARN 16972 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 19:47:29.130  INFO 16972 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 19:47:29.364  INFO 16972 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 19:47:29.372  INFO 16972 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 19:47:29.438  INFO 16972 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 19:47:29.442  INFO 16972 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.429 seconds (JVM running for 2.768)
+2021-11-22 19:47:29.444  INFO 16972 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 19:47:34.577  INFO 16972 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 19:47:34.577  INFO 16972 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-22 19:47:34.582  INFO 16972 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-11-22 19:47:34.597  INFO 16972 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51370
+2021-11-22 19:47:34.647  INFO 16972 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:47:34.648  WARN 16972 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:47:43.250  INFO 16972 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:stay"
+2021-11-22 19:47:43.937  INFO 16972 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: stay
+2021-11-22 19:47:44.356  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "786026725968314389", "sessionId": "1b18ec23c418b613a2083c3acb0bd0cf", "event": {"token": "2d3e5dd2c04cc456", "guild_id": "786026725968314389", "endpoint": "hongkong2050.discord.media:443"}}
+2021-11-22 19:47:49.174  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAnAIANFRoZSBLaWQgTEFST0ksIEp1c3RpbiBCaWViZXIgLSBTVEFZIChPZmZpY2lhbCBWaWRlbykADlRoZSBLaWQgTEFST0kuAAAAAAACaTAAC2tUSmN6VW9jMjZVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a1RKY3pVb2MyNlUAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:51:03.928  INFO 16972 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59290
+2021-11-22 19:51:03.932  INFO 16972 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 19:51:03.932  WARN 16972 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 19:51:21.098  INFO 16972 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ª¢"
+2021-11-22 19:51:21.495  INFO 16972 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ª¢
+2021-11-22 19:51:27.435  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAuwIAWeOAjOeCjiAtTGlTQeOAjemsvOa7heS5i+WIgzrliofloLTniYgg54Sh6ZmQ5YiX6LuK56+H5Li76aGM5puyIEVEIEZ1bGwg44CQ5Lit5pel5q2M6Kme44CRAAhSRU1FTUJFUgAAAAAABDYgAAtpVFcxYnYyZU85WQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWlUVzFidjJlTzlZAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:52:30.677  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "786026725968314389"}
+2021-11-22 19:52:30.678  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "786026725968314389"}
+2021-11-22 19:52:45.722  INFO 16972 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/playlist?list=PLSE90cnmm065pmAscF7FSptpdGnBGDuXT"
+2021-11-22 19:52:46.131  INFO 16972 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist ¤û¹G¥S§Ì
+2021-11-22 19:52:46.146  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAvgIAV+OAkO+8k+aciOOBruODqeOCpOOCquODs+OAkU9yaW9uLUFjb3VzdGljIEFycmFuZ2Ut44CU5q2M44Gj44Gm44G/44Gf44CV44CQTWFyaWXimIZGROOAkQAN55yf55KDTWFyaWVGRAAAAAAABGjoAAtrblVNYWcwSXUwZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWtuVU1hZzBJdTBnAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:52:46.149  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "786026725968314389", "sessionId": "1b18ec23c418b613a2083c3acb0bd0cf", "event": {"token": "7f89205849de6419", "guild_id": "786026725968314389", "endpoint": "hongkong2050.discord.media:443"}}
+2021-11-22 19:53:19.152  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "786026725968314389"}
+2021-11-22 19:53:19.153  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAawIABUxvc2VyAAznsbPmtKXnjoTluKsAAAAAAAPA8AALd3BiMjJBZWhBVFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj13cGIyMkFlaEFUVQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.268  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAoQIAPFJpY2sgQXN0bGV5IC0gTmV2ZXIgR29ubmEgR2l2ZSBZb3UgVXAgKE9mZmljaWFsIE11c2ljIFZpZGVvKQALUmljayBBc3RsZXkAAAAAAANACAALZFF3NHc5V2dYY1EAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.269  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfQIAHOOAkE1NROOAkU1pa3UgLSBHaW1tZcOXR2ltbWUAB0FSb25pc2MAAAAAAANfSAALaXg5bkVqU3hnZW8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1peDluRWpTeGdlbwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.270  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAA0QIAUeOAkOatjOOBo+OBpuOBv+OBn+OAkeeMq+eMq+eahOWuh+WumeirliAvIOODiuODpuOCv+ODs+aYn+S6uuOAkOOBqOOBjeOBruOBneOCieOAkQAmU29yYUNoLiDjgajjgY3jga7jgZ3jgonjg4Hjg6Pjg7Pjg43jg6sAAAAAAANPqAALeVhNOGtiZkxHSm8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj15WE04a2JmTEdKbwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.272  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAsQIATUJhZCBBcHBsZSEhIC0gRnVsbCBWZXJzaW9uIHcvdmlkZW8gW0x5cmljcyBpbiBSb21hamksIFRyYW5zbGF0aW9uIGluIEVuZ2xpc2hdAApsdWlnaW1hbjA5AAAAAAAE9YgACzlsTlpfUm5yN0pjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OWxOWl9SbnI3SmMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.273  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACemHkeWtl+WhlAANUmVvbCBPZmZpY2lhbAAAAAAAAyyAAAtfODdtcHo3LTVhOAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PV84N21wejctNWE4AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.275  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACeWksealveWckgANUmVvbCBPZmZpY2lhbAAAAAAAA+QYAAs5a2xQUkxjblZiSQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTlrbFBSTGNuVmJJAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.276  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbgIAB0x1bmF0aWMADVJlb2wgT2ZmaWNpYWwAAAAAAAMFcAALUDBsX2VnOHB5d1UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QMGxfZWc4cHl3VQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.277  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAawIABDFMREsADVJlb2wgT2ZmaWNpYWwAAAAAAAOV+AALcHdNUVRmbGtwVlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1wd01RVGZsa3BWUQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.279  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjgIAJOWlveOBjeOBq+OBquOBo+OBoeOCg+OBhOOBkeOBquOBhOS6ugAQQ0hJSElSTyBvZmZpY2lhbAAAAAAABM54AAswTVZVclI5b2NlZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTBNVlVyUjlvY2VnAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.282  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAegIADmlsIHZlbnRvIGQnb3JvABJZdWdvIEthbm5vIC0gVG9waWMAAAAAAASEQAALVTBUWElYVHpKRVkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1VMFRYSVhUekpFWQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.285  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfQIAF+W6g+eArCDpppnnvo4gLSBQcm9taXNlAAzmnKjkuIvnvo7lkrIAAAAAAARFwAALOXVkTmthVWNqajAAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj05dWROa2FVY2pqMAAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.317  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAqwIAM1tPZmZpY2lhbF0gVEhFIEVORCBPRiBIQVRTVU5FIE1JS1UgLyBjb3NNb0BCb3Vzb3UtUAAeY29zTW9AYm91c291UCBPZmZpY2lhbCBDaGFubmVsAAAAAAAEcLgAC1ZXVnRJZzVjZERVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VldWdElnNWNkRFUAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.318  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkQIAJ+engeOBruaBi+OBr+ODiuODn+ODgOOBp+OBp+OBjeOBpuOBhOOCiwAQQ0hJSElSTyBvZmZpY2lhbAAAAAAAA3LQAAt4WXpmTWZZNU9iYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXhZemZNZlk1T2JjAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.320  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbQIABua/gOeZvQANUmVvbCBPZmZpY2lhbAAAAAAAAyiYAAttbmEyMUdLQ2FTVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW1uYTIxR0tDYVNVAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.322  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAsgIAVOaciOW9seOBruOCt+ODn+ODpeODqeOCr+ODqy3op6PmlL7jga7nvr0tIE9QIOOAjuiHqueUseOBrue/heOAjyBGdWxsIOS9kOiXpOOBsuOCjee+jgAEZGlqcwAAAAAABDYgAAtkdm9iUnJnaGV6UQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWR2b2JScmdoZXpRAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.324  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAuwIANSJIdW1hbm9pZCIgTXVzaWMgVmlkZW8gYnkgWnV0dG8gTWF5b25ha2EgZGUgSWkgbm8gbmkuACzjgZrjgaPjgajnnJ/lpJzkuK3jgafjgYTjgYTjga7jgavjgIJaVVRPTUFZTwAAAAAAA/egAAtHQUIyNkdnSjhWOAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUdBQjI2R2dKOFY4AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.326  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAlQIAHUtvdG9uZSAtICJLYWdvbWUiIE11c2ljIFZpZGVvAB7lpKnnpZ4g5a2Q5YWO6Z+zIFRlbmppbiBLb3RvbmUAAAAAAAPgMAALUFRHd2NfV2s1akUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QVEd3Y19XazVqRQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.328  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAApgIANuODluODq+ODvOODkOODvOODiSAtIOOBhOOBjeOCguOBruOBjOOBi+OCiu+8iOODleODq++8iQAWaGlnaF9ub3RlIE11c2ljIExvdW5nZQAAAAAAA0AIAAszeTBId0VsdDVMdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTN5MEh3RWx0NUx3AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.331  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkgIALUVsZXBoYW50ZSAtIENvbWUgQmFjayBGb3IgWW91IChmZWF0LiBNYXRsdWNrKQALVHJhcCBOYXRpb24AAAAAAAMVEAALenlmaXdLNnd2SWcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj16eWZpd0s2d3ZJZwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.332  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbAIAB1JlOm1ha2UAC09ORSBPSyBST0NLAAAAAAADIMgACzlpZjJybFRSWS0wAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OWlmMnJsVFJZLTAAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.334  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdQIAF0FzIFlvdSBMaWtlIEl0IC0gRXZlIE1WAARFIHZlAAAAAAADzKgAC25ST3ZZOXVpWVlrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9blJPdlk5dWlZWWsAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.336  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjgIAHVJPQ0tTVEFSIChUQUsoTkVXVFlQRSkgUmVtaXgpABdWYXJpb3VzIEFydGlzdHMgLSBUb3BpYwAAAAAAA1OQAAt6ZE5pTmhlY2dNZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXpkTmlOaGVjZ01nAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.340  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAhgIAKOWKo+etieS4iuetiSBmZWF0LiDpj6Hpn7Pjg6rjg7Pjg7vjg6zjg7MABEdpZ2EAAAAAAAOZ4AALSWRla0ZkM0Q2cTgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JZGVrRmQzRDZxOAAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.345  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbAIADEFtZSBXbyBNYXRzdQAGTWluYW1pAAAAAAAEhEAAC1RGQUxkZzdIVUpVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VEZBTGRnN0hVSlUAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.349  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbgIACeWkqeODjuW8sQALMTY0IC0gVG9waWMAAAAAAALaeAALVUx0N3EwRWRBUm8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1VTHQ3cTBFZEFSbwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.352  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiAIAEuOCreODn+OBq+i0iOOCi+atjAAcVEhFIFN4UExBWeODu+iPheWOn+e0l+eUseeQhgAAAAAABBbgAAtNQmR5RWx1cVp3MAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU1CZHlFbHVxWncwAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.355  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAeAIAE+WujOWFqOaEn+immkRyZWFtZXIAC09ORSBPSyBST0NLAAAAAAAD3EgACzRmQzFNNk1qdEZNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NGZDMU02TWp0Rk0AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.359  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAewIAFEphcGFuZXNlIEJlc3QgRnJpZW5kAA1kYTIyYSAtIFRvcGljAAAAAAAEeIgAC0dGcVFETlJhNUNBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9R0ZxUUROUmE1Q0EAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.366  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAmwIANOaciOW9seOBruOCt+ODn+ODpeODqeOCr+ODqyBFRCDjgqTjg47jg4Hjga7nga/jgZfmlrkADVZpbmdsZSBIZXJtdXgAAAAAAAUBQAALWU1xWWNvYy1URFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ZTXFZY29jLVREVQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.369  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAA0gIATEJlYXQgRWF0ZXIgLSDjg53jg6rjgrnjg5Tjgqvjg4fjg6rjg7wgZmVhdC4g5Yid6Z+z44Of44KvIC8gUG9saWNlIFBpY2NhZGlsbHkALOODneODquOCueODlOOCq+ODh+ODquODvCAvIFBvbGljZSBQaWNjYWRpbGx5AAAAAAADV3gAC1JjY19CcmVXRU1JAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UmNjX0JyZVdFTUkAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.372  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAtwIAVeOAkOWInemfs+ODn+OCryg0MOONjSnjgJEg44GL44KJ44GP44KK44OU44Ko44OtIEthcmFrdXJpIFBpZXJyb3TjgJDjgqrjg6rjgrjjg4rjg6vjgJEACDQwbWV0ZXJQAAAAAAAEgFgAC3h4RmtXM1BDVDVNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eHhGa1czUENUNU0AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.374  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAogIAP0VHT0lTVC3lkI3liY3jga7jgarjgYTmgKrniako5rKS5pyJ5ZCN5a2X55qE5oCq54mpKeS4reaXpeWtl+W5lQAJ6buD5a+26LOiAAAAAAAE0mAACzViVjk0b09raWo4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NWJWOTRvT2tpajgAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.376  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdQIAFOODkuODkOODiiAtUmVsb2FkZWQtAAdERUNPKjI3AAAAAAADKJgAC1JXa1B3NUxfb1AwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UldrUHc1TF9vUDAAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.379  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIABueJh+aBiwAQQ0hJSElSTyBvZmZpY2lhbAAAAAAABI/4AAs3RFFheDd3ZTg3awABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTdEUWF4N3dlODdrAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.382  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbgIADOaBi+aEm+ijgeWIpAAINDBtZXRlclAAAAAAAANbYAALX0NvdmNFOExRalUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1fQ292Y0U4TFFqVQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.384  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAgQIAI1RoZSBTZWNyZXQgQWJvdXQgVGhhdCBHaXJsIC0gRXZlIE1WAARFIHZlAAAAAAADjigAC3NnZFBsREcxLThrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9c2dkUGxERzEtOGsAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.388  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAA3wIAfFsxMDgwUCBGdWxs6aKoXSBXb3JsZCBpcyBNaW5lIOODr+ODvOODq+ODieOCpOOCuuODnuOCpOODsyAtSGF0c3VuZSBNaWt1IOWInemfs+ODn+OCryBQcm9qZWN0IERJVkEgRW5nbGlzaCBseXJpY3MgUm9tYWppIFBERlQACWdvb2dvbzg4OAAAAAAAA+gAAAtOWV9fVlRJVXNpVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU5ZX19WVElVc2lVAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.392  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbQIABueZveWknAANUmVvbCBPZmZpY2lhbAAAAAAAA9hgAAtQdFRnZ1IwZ1FyUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVB0VGdnUjBnUXJRAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.396  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkgIAFktBTkEtQk9PTiAtIFNpbGhvdWV0dGUAIktBTkEtQk9PTiBPZmZpY2lhbCBZb3VUdWJlIENoYW5uZWwAAAAAAAQPEAALZGxGQTBacTFrMkEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kbEZBMFpxMWsyQQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.397  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACeOCq+ODq+ODiAANUmVvbCBPZmZpY2lhbAAAAAAABCaAAAtwV2h4S1VJQVhhNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXBXaHhLVUlBWGE0AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.400  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiwIADOe3i+iJsuOBruepugAl5bed55Sw44G+44G/IE9mZmljaWFsIFlvdVR1YmUgQ2hhbm5lbAAAAAAAA+gAAAtkNUhPZllTMnZZdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWQ1SE9mWVMydll3AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.416  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAegIADEtva29ybyBPZG9ydQAUbm9ib2R5a25vd3MrIC0gVG9waWMAAAAAAAPgMAALME5KVVRkRDRQRlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0wTkpVVGRENFBGUQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.429  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiwIAKOWQjOOBmOepuuOBruS4i+OBpyBLT1RPS08gKOacgOmrmOmfs+izqikACUFZVU1JMTEwNwAAAAAABQUoAAtEQkhhQkZkTTRPZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PURCSGFCRmRNNE9nAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.432  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACeW5s+mdoumPoQANUmVvbCBPZmZpY2lhbAAAAAAAAvm4AAsyUFJRVWxpQ0NJVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTJQUlFVbGlDQ0lVAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.434  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbQIADOaEm+iogOiRiUlJSQAHREVDTyoyNwAAAAAAA8TYAAtqaDRocXM2d2tEYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWpoNGhxczZ3a0RjAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.436  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfAIAEuOCguOBhuOBiuOBl+OBvuOBhAAQQ0hJSElSTyBvZmZpY2lhbAAAAAAABSw4AAstUkJFRFNyWjZjMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PS1SQkVEU3JaNmMwAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.440  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIABuWNkuaBiwAQQ0hJSElSTyBvZmZpY2lhbAAAAAAABJfIAAt3MHJjUDU1V0ZTZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXcwcmNQNTVXRlNnAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.446  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAhgIAClNpbGhvdWV0dGUAIktBTkEtQk9PTiBPZmZpY2lhbCBZb3VUdWJlIENoYW5uZWwAAAAAAAOtaAALV3FYemVCMkt5S1EAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1XcVh6ZUIyS3lLUQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.450  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkgIANOWSjOaoguWZqOaoguWcmCAvIOaIsCAtaWt1c2EtKOe5gemrlOS4reaWh+Wtl+W5leeJiCkABGF2ZXgAAAAAAANjMAALdHEwRVRGeXllZ2cAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10cTBFVEZ5eWVnZwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.453  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdwIAE+WMl+S5g+OBjeOBhC3okYnmoZwACkNIRVBJTiBZRUgAAAAAAATaMAALdTZtOFZUUFJSd3MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj11Nm04VlRQUlJ3cwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.456  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbQIADOS5meWls+ino+WJlgAHREVDTyoyNwAAAAAAA2sAAAt0TlFteUk1UjNSWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXROUW15STVSM1JZAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.458  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiQIAGOmdkuepuuOBruODqeODl+OCveODh+OCowAXZmjDoW5hIE9mZmljaWFsIENoYW5uZWwAAAAAAAQ98AALNk90NmRlMlJqYUEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02T3Q2ZGUyUmphQQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.460  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAigIAD29ubHkgbXkgcmFpbGd1bgAhZnJpcFNpZGUgT2ZmaWNpYWwgWW91VHViZSBDaGFubmVsAAAAAAAD79AAC1VtblEyZkVvWFVJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VW1uUTJmRW9YVUkAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.461  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAwwIAX+OAkEFraWXnp4vntbXjgJHlpKnjg47lvLEgLeOBhuOBg+OCk+OBkFBpYW5vIFZlci4tIOOAkOatjOOBo+OBpuOBv+OBn+OAkeOAkOOCquODquOCuOODiuODq1BW44CRAApBa2ll56eL57W1AAAAAAAELlAAC0VveFJoeHNUbU5nAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9RW94Umh4c1RtTmcAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.464  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdgIAEkRBWUJSRUFLIEZST05UTElORQAKT3Jhbmdlc3RhcgAAAAAAA0+oAAs2SW81QjZfajdLNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTZJbzVCNl9qN0s0AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.469  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAigIAJUtpenVuYSBBSSAtIGZ1dHVyZSBiYXNlIChQcm9kLll1bm9taSkAC0EuSS5DaGFubmVsAAAAAAACzsAAC3llRDdlQXV6YTc0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eWVEN2VBdXphNzQAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.473  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfwIAFeODnuODvOODoeOCpOODieODqeODlgAQQ0hJSElSTyBvZmZpY2lhbAAAAAAAA53IAAtpcG8yUnhGU2pXdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWlwbzJSeEZTald3AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.475  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAwQIASkNoaWt5dXUgU2FpZ28gbm8gS29rdWhha3UgbyAoRWFydGgncyBMYXN0IENvbmZlc3Npb24pIGFjb3VzdGljIGNvdmVyLiBLYW5vAB3pub/kuYPjg4Hjg6Pjg7Pjg43jg6tvZmZpY2lhbAAAAAAABC5QAAtwYVZZTmxaNVh1awABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXBhVllObFo1WHVrAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.479  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACeesrOWFreaEnwANUmVvbCBPZmZpY2lhbAAAAAAAAu4AAAtLSmpWZ3BDbWlrcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUtKalZncENtaWtzAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.481  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAeAIABua3see0hQAYSGl0b21pIFNoaW1hdGFuaSAtIFRvcGljAAAAAAAEIpgAC0lHSE1GTUJzVGRZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SUdITUZNQnNUZFkAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.482  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAgQIAG+exs+a0peeOhOW4qyAgTVbjgIxMZW1vbuOAjQAM57Gz5rSl546E5birAAAAAAAEMjgAC1NYX1ZpVDRSYTdrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U1hfVmlUNFJhN2sAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.484  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiQIAG+ODmeODjuODoO+8iGZlYXQuIGZsb3dlcu+8iQAUS2FpcmlraSBCZWFyIC0gVG9waWMAAAAAAAMc4AALN1pmT2NNRjRzaUkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj03WmZPY01GNHNpSQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.486  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAmQIAIeOBoOOBi+OCieWDleOBr+mfs+alveOCkui+nuOCgeOBnwAe44Oo44Or44K344KrIC8gbi1idW5hIE9mZmljaWFsAAAAAAADtTgACzY0ZnREWUpYY1RvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NjRmdERZSlhjVG8AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.488  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdgIAD+ODj+ODvOODoeODq+ODswANUmVvbCBPZmZpY2lhbAAAAAAAAw1AAAs5RTQ0TGxnbl9zQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTlFNDRMbGduX3NBAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.489  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdAIADkZha2UuRmFrZS5GYWtlAAxBWktpIC0gVG9waWMAAAAAAAOGWAALVE1tMHVDV2c5T2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1UTW0wdUNXZzlPYwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.491  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcwIADOOCteOCpOOCteOCrQANUmVvbCBPZmZpY2lhbAAAAAAAA1OQAAtZOW54Qk9XYzhjMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVk5bnhCT1djOGMwAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.494  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACeOCpuODhuODigANUmVvbCBPZmZpY2lhbAAAAAAAAwlYAAtxS2lKRW15enhKNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXFLaUpFbXl6eEo0AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.498  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfwIAFUNodWJ5b3UgR2VraWhhdHN1IEJveQAQcmVydWxpbGkgLSBUb3BpYwAAAAAAAyiYAAs4OWktY0JUT25FcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTg5aS1jQlRPbkVzAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.500  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAgQIADlBsYXRpbnVtIERpc2NvABlNT05PR0FUQVJJIFNlcmllcyAtIFRvcGljAAAAAAAD6+gACzE0Rk9Qc1NDSVBzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MTRGT1BzU0NJUHMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.502  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjgIAF0tvaWhha2Fvc3Vub3NoaW1vYmVuYXJpAB1Vc2hpcm9rYXJhIEhhaXlvcml0YWkgLSBUb3BpYwAAAAAAA6WYAAtMY2I3WmE3N2xmdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUxjYjdaYTc3bGZ3AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.503  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAlAIAKEFwcmlsIFNob3dlcnMgLyBBaW1lciBbRW5nbGlzaCBzdWJ0aXRsZV0AEkxvdmUgQWltZXIgRm9yZXZlcgAAAAAABT/AAAs0UFZkRTRsbVd4TQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTRQVmRFNGxtV3hNAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.506  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAhQIAFFRpbnkgTGl0dGxlIEFkaWFudHVtABdTaGliYXlhblJlY29yZHMgLSBUb3BpYwAAAAAABVsYAAtEMFdSOHI0Z2ptRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUQwV1I4cjRnam1FAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.512  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAnwIAMOKcvyDoh6rlgrfnhKHoibLjgIDmrYzjgaPjgabjgb/jgZ8gdmVyLuiKseOBn+OCkwAVSGFOYVRhbiBNdXNpYyBDaGFubmVsAAAAAAADV3gAC0w0ckpQSFVDdV80AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TDRySlBIVUN1XzQAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.513  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjgIAFU5hbWFlIE5vIE5haSBLYWlidXRzdQAfRUdPSVNUIE9mZmljaWFsIFlvdVR1YmUgQ2hhbm5lbAAAAAAABNowAAs0XzdZN2RQVVdHRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTRfN1k3ZFBVV0dFAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.515  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAigIAEuOBn+OBoOWQm+OBq+aZtOOCjAAe44Oo44Or44K344KrIC8gbi1idW5hIE9mZmljaWFsAAAAAAADCVgAC1pkem9MQ0xsaVcwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WmR6b0xDTGxpVzAAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.517  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdAIABVl1LUtlABVMaVNBIE9mZmljaWFsIFlvdVR1YmUAAAAAAAN+iAALUWYzS0M1RHhWbTQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1RZjNLQzVEeFZtNAAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.518  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkAIAKlN1YXJhLeOAjuS4jeWuieWumuOBquelnuanmOOAj+S4reaXpeatjOipngAM44Kz44Km44K144KtAAAAAAADqYAAC2hHM19GUHBkUUZzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9aEczX0ZQcGRRRnMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.520  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAA2AIAYOOAkEkgU2FuZ+OAkURlbHVzaW9uIFNlbnNhdGlvbiBDb21wZW5zYXRpb24gRmVkZXJhdGlvbiAvIERFQ08qMjfjgJBLb3RvbmUoVGVuamluIEtvdG9uZSljb3ZlcuOAkQAe5aSp56WeIOWtkOWFjumfsyBUZW5qaW4gS290b25lAAAAAAAEHrAAC3dlNEpCUU1odmFzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2U0SkJRTWh2YXMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.522  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjQIAHkhhbmF0YW4gLSBSb21lbyBhbmQgQ2luZGVyZWxsYQAV44CM5rC46YGg44CNRUlFTk1VU0lDAAAAAAAEQdgAC1RiRlNwdmxhdWdjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VGJGU3B2bGF1Z2MAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.526  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdgIAFeOCtOODvOOCueODiOODq+ODvOODqwAHREVDTyoyNwAAAAAAAzRQAAtXSkREaEg5bzdlNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVdKRERoSDlvN2U0AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.527  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdAIADTQwNCBOb3QgRm91bmQADVJlb2wgT2ZmaWNpYWwAAAAAAAO9CAALTWdkLXJQc3JkUW8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NZ2QtclBzcmRRbwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.528  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkQIAJ0xvcyEgTG9zISBMb3MhIChTYWdhIG9mIFRhbnlhIHRoZSBFdmlsKQAQU2VscGhpdXMgLSBUb3BpYwAAAAAAA1OQAAs5eUwtWW43WXBPOAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTl5TC1ZbjdZcE84AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.530  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAApQIAOlJlOkxpZUYgKOODrOODquODvOODlSkgT1AgRnVsbOOAjFJlOlRyeW1lblTjgI3mrYzoqZ7ku5jjgY0AEVZpc3VhbCBOb3ZlbCBEdWRlAAAAAAADyMAAC2NUM3dicDE3QW5vAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Y1Qzd2JwMTdBbm8AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.538  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiwIAHuWNg+acrOahnCAoZmVhdC4gSGF0c3VuZSBNaWt1KQATV2hpdGVGbGFtZSBvZmZpY2lhbAAAAAAAA9xIAAtuSEdXX3dVZnFrUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW5IR1dfd1VmcWtRAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.552  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcwIAEuOCsOODg+ODkOOCpOWuo+iogAAHQ2hpbm96bwAAAAAAAqPIAAt2Zkxmb25FZW95TQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXZmTGZvbkVlb3lNAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.556  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkwIANeWSjOaoguWZqOaoguWcmCAvIOi1t+atu+WbnueUnyjnuYHpq5TkuK3mloflrZfluZXniYgpAARhdmV4AAAAAAACwwgACzdvTVZLRjh5T2NRAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9N29NVktGOHlPY1EAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.582  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcwIADOWNgeS4reWFq+S5nQANUmVvbCBPZmZpY2lhbAAAAAAAA3LQAAs4UGlDc3lDZXhSQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PThQaUNzeUNleFJBAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.584  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAhQIAGOODreOCueODiOOCouODs+ODluODrOODqQATSW5hYmFrdW1vcmkgLSBUb3BpYwAAAAAAAyDIAAtGQTNhLUhRdGlBRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUZBM2EtSFF0aUFFAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.585  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAwwIAZOW5vOWls+aIpuiomCBFRCAvIFlvdWpvIFNlbmtpIEVuZGluZyDjgIxGVUxM44CNIC0gIkxvcyEgTG9zISBMb3MhIiAtICBUYW55YSBEZWd1cmVjaGFmZiAo5oKg5pyoIOeipykABUFvbmlzAAAAAAADW2AAC09nWFpuX0hfUUFJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9T2dYWm5fSF9RQUkAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.586  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAlQIAHFRoZSBFdmVybGFzdGluZyBHdWlsdHkgQ3Jvd24AH0VHT0lTVCBPZmZpY2lhbCBZb3VUdWJlIENoYW5uZWwAAAAAAAUFKAALLXAwSWpuQmhHMTAAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0tcDBJam5CaEcxMAAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.586  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfAIAHCJMaWxhYyIgLSDnvo7ms6IgKE1pbmFtaSkgTVYABk1pbmFtaQAAAAAABJ+YAAtHUTNWNTBYb0xPTQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUdRM1Y1MFhvTE9NAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.588  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdAIAEU1zIE9vamEgaXTigJlzIG9rAAlNcyBZdmV0dGUAAAAAAAP/cAALVWdGajQzS0tUd1UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1VZ0ZqNDNLS1R3VQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.590  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAsgIAT+OAkEhE44CRIOWFreWFhuW5tOOBqOS4gOWknOeJqeiqniDjgJBJQeOCquODquOCuOODiuODq+absuODu1BW5LuY44CRLSBLRU1VIFZPWFgACWtlLXNhbiDOsgAAAAAAA19IAAtPbTNNVG91MmtQZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU9tM01Ub3Uya1BnAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.592  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcAIACeOCqOODs+ODiQANUmVvbCBPZmZpY2lhbAAAAAAABIwQAAtKMlZ6UUtHNy1KdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUoyVnpRS0c3LUp3AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.595  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbQIABlNBSVJFTgANUmVvbCBPZmZpY2lhbAAAAAAAA4pAAAs1aUFJWk5fNnBuNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTVpQUlaTl82cG40AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.596  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAoAIANuWQm+OBjOOBhOOBquOBhOS4lueVjOOBr+WIh+OBquOBj+OBpiBmZWF0LiBLRU4gVEhFIDM5MAAQQ0hJSElSTyBvZmZpY2lhbAAAAAAABTQIAAtHTVZyM2gzbmo5OAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUdNVnIzaDNuajk4AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.599  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAhwIAJ0R1Y2EgLSDjgqLjgqTjga7luq0gW0VuZ2xpc2ggU3VidGl0bGVkXQAGS2Fsa2luAAAAAAAEeIgAC0QxWUdlUUxqZGl3AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9RDFZR2VRTGpkaXcAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.602  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAfgIABua2iOWksQAeY29zTW9AYm91c291UCBPZmZpY2lhbCBDaGFubmVsAAAAAAAEcLgAC3UwWXdhVEI5aDhNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9dTBZd2FUQjloOE0AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.605  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAdAIADS1GaW5hbCBTaWdtYS0ADVJlb2wgT2ZmaWNpYWwAAAAAAAHM8AALMnprc0VLNVJJWkkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0yemtzRUs1UklaSQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.609  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcgIABUh5ZHJhABNNWVRIICYgUk9JRCAtIFRvcGljAAAAAAAEgFgAC2VEaXU1cms4TW5vAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZURpdTVyazhNbm8AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.611  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAtQIAPeOAkEkgc2FuZ+OAkUZyYWdpbGUgLyAgbnV5dXJp44CQS290b25lKFRlbmppbiBLb3RvbmUpY292ZXLjgJEAHuWkqeelniDlrZDlhY7pn7MgVGVuamluIEtvdG9uZQAAAAAABCpoAAszcXZ4cmw2dkw0OAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTNxdnhybDZ2TDQ4AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.613  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAmgIAK1tIRC9DQ10gTmlnaHRjb3JlIC0gSXQncyBPSyDjgIwgTXMuT09KQSDjgI0AFeaEm+OBl+OBpuOCi+ODjeOCsuODtAAAAAAAA5ngAAtxODBuVDI5OWt4OAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXE4MG5UMjk5a3g4AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.614  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAagIAA1JlOgANUmVvbCBPZmZpY2lhbAAAAAAAAxzgAAtZMi0zT2c2VklkcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVkyLTNPZzZWSWRzAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.615  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAggIAG+ecn+epuuOCquODvOODq+ODieODreODvOOCugANUmVvbCBPZmZpY2lhbAAAAAAAA8yoAAs5OU9qN0FGeVMwRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTk5T2o3QUZ5UzBFAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.637  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAiAIAFkRlc3RpbnkgLeWkqumZveOBruiKsS0AGEhpdG9taSBTaGltYXRhbmkgLSBUb3BpYwAAAAAABDI4AAttMElMSDRnOHhGOAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW0wSUxINGc4eEY4AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.638  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAgwIAB1VucmF2ZWwAIlRLIGZyb20gTGluZyB0b3NpdGUgc2lndXJlIC0gVG9waWMAAAAAAAOtaAALN090ejZKZEE0YW8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj03T3R6NkpkQTRhbwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.639  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAbAIAD+aBi+mfs+OBqOmbqOepugADQUFBAAAAAAAE1kgAC0lza1BCOTZsZjc4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SXNrUEI5NmxmNzgAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.642  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAugIAVOOAkCBMVVog44CR54us44KK44KT44G844Ko44Oz44O044Kj44O8ICDlq4nlppLnmoTkuIDkurrmjYnov7fol48gIOOAkOS4reaWh+Wtl+W5leOAkQAM5oKg5Y+v5ZOI5ZOIAAAAAAADQAgACzNOUEpvaW5ueXpZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9M05QSm9pbm55elkAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.642  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAkQIAJOOBoOOCjOOBi+OBruW/g+iHk+OBq+OBquOCjOOBn+OBquOCiQATWVVSUlkgQ0FOT04gLSBUb3BpYwAAAAAAA4pAAAtubVRQVHFXWlUxdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW5tVFBUcVdaVTF3AAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.643  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAcwIADFlvaXlvaSBLb2tvbgANUmVvbCBPZmZpY2lhbAAAAAAAA+/QAAtNX0k2dEFTcm53awABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU1fSTZ0QVNybndrAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.645  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAqgIAQuKYhuKYhiBNYW9uIEt1cm9zYWtpICAgU2V0c3VuYSBubyBLYWppdHN1IEdyaXNhaWEgbm8gUmFrdWVuIOKYhuKYhgAOTWFsaWsgQWJkdWxsYWgAAAAAAANH2AALWFF6dTRDLUVNU3cAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YUXp1NEMtRU1TdwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.647  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjwIAMVtJU0xBTkQgT1AgRlVMTF0gVHJhdmVsZXIncyB0YWxlIC8gcml5YShldWZvbml1cykABEgyIFQAAAAAAAO1OAALQVBHNHdrYllLZnMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1BUEc0d2tiWUtmcwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.648  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAtQIAOGFtYXphcmFzaGnjgI7nqbTjgpLmjpjjgaPjgabjgYTjgovjgI/igJxEaWdnaW5nIEhvbGVz4oCdACNhbWF6YXJhc2hpIE9mZmljaWFsIFlvdVR1YmUgQ2hhbm5lbAAAAAAABh5oAAtCMkhzZGdWUS1jYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUIySHNkZ1ZRLWNjAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-11-22 19:53:19.654  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAnwIAPuOAjuWFreWFhuW5tOOBqOS4gOWknOeJqeiqnuOAj+OAkOm5v+S5gyjjgYvjga4p44CR5Lit5pel5a2X5bmVAAdFdmVuaW5nAAAAAAADX0gACzE5MG1MWm5LMHpzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MTkwbUxabkswenMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
