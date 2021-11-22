@@ -527,3 +527,45 @@ Identify and stop the process that's listening on port 2333 or configure this ap
 2021-11-22 19:53:19.647  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAjwIAMVtJU0xBTkQgT1AgRlVMTF0gVHJhdmVsZXIncyB0YWxlIC8gcml5YShldWZvbml1cykABEgyIFQAAAAAAAO1OAALQVBHNHdrYllLZnMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1BUEc0d2tiWUtmcwAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0"}
 2021-11-22 19:53:19.648  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAtQIAOGFtYXphcmFzaGnjgI7nqbTjgpLmjpjjgaPjgabjgYTjgovjgI/igJxEaWdnaW5nIEhvbGVz4oCdACNhbWF6YXJhc2hpIE9mZmljaWFsIFlvdVR1YmUgQ2hhbm5lbAAAAAAABh5oAAtCMkhzZGdWUS1jYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUIySHNkZ1ZRLWNjAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
 2021-11-22 19:53:19.654  INFO 16972 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "786026725968314389", "track": "QAAAnwIAPuOAjuWFreWFhuW5tOOBqOS4gOWknOeJqeiqnuOAj+OAkOm5v+S5gyjjgYvjga4p44CR5Lit5pel5a2X5bmVAAdFdmVuaW5nAAAAAAADX0gACzE5MG1MWm5LMHpzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MTkwbUxabkswenMAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-11-22 20:05:49.257  INFO 17836 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.4
+	Build:          1257
+	Build time:     26.10.2021 14:18:37 UTC
+	Branch          master
+	Commit:         a364833
+	Commit time:    26.10.2021 14:15:20 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.96-original
+
+2021-11-22 20:05:49.331  INFO 17836 --- [main] lavalink.server.Launcher                 : Starting Launcher on ChrisChiu with PID 17836 (C:\Users\chris\Desktop\Catherine_DiscordBot\Lavalink.jar started by chris in C:\Users\chris\Desktop\Catherine_DiscordBot)
+2021-11-22 20:05:49.332  INFO 17836 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-22 20:05:49.415  WARN 17836 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-22 20:05:50.222  WARN 17836 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-22 20:05:50.238  INFO 17836 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-22 20:05:50.238  INFO 17836 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 864 ms
+2021-11-22 20:05:50.503  WARN 17836 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-22 20:05:50.714  INFO 17836 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-22 20:05:50.890  INFO 17836 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-11-22 20:05:50.890  WARN 17836 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-11-22 20:05:51.070  INFO 17836 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-22 20:05:51.316  INFO 17836 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-22 20:05:51.325  INFO 17836 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-22 20:05:51.394  INFO 17836 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-22 20:05:51.397  INFO 17836 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.528 seconds (JVM running for 2.983)
+2021-11-22 20:05:51.399  INFO 17836 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-22 20:05:54.381  INFO 17836 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-22 20:05:54.382  INFO 17836 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-22 20:05:54.385  INFO 17836 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-11-22 20:05:54.401  INFO 17836 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56844
+2021-11-22 20:05:54.452  INFO 17836 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established
+2021-11-22 20:05:54.452  WARN 17836 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header. User agent: Python/3.7 aiohttp/3.6.3
+2021-11-22 20:05:54.845  INFO 17836 --- [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56844 -- CloseStatus[code=1006, reason=]
+2021-11-22 20:05:54.846  INFO 17836 --- [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
