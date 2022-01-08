@@ -340,7 +340,7 @@ class Music(commands.Cog, wavelink.WavelinkMixin):
         await player.teardown()
         await ctx.send("Disconnected.")
 
-    @commands.command(name="play", aliases=["p"])
+    @commands.command(name="play", aliases=["p", "P"])
     async def play_command(self, ctx, *, query: t.Optional[str]):
         player = self.get_player(ctx)
 
